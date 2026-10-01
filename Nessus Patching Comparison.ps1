@@ -4,8 +4,8 @@
 
 # File Locations
 
-$BeforeCsv = "Enter file path here"
-$AfterCsv  = "Enter file path here"
+$BeforeCsv = "Path where your pre patching scans were exported to\before.csv.csv"
+$AfterCsv  = "Path where your post patching scans were exported to\after.csv.csv"
 
 $TimeStamp = Get-Date -Format "yyyyMMdd-HHmmss"
 
