@@ -4,14 +4,14 @@
 
 # File Locations
 
-$BeforeCsv = "C:\Users\adminjkh\Desktop\Nessus\before.csv.csv"
-$AfterCsv  = "C:\Users\adminjkh\Desktop\Nessus\after.csv.csv"
+$BeforeCsv = "Enter file path here"
+$AfterCsv  = "Enter file path here"
 
 $TimeStamp = Get-Date -Format "yyyyMMdd-HHmmss"
 
-$SummaryCsv   = "C:\Users\adminjkh\Desktop\Nessus\PatchSummary_$TimeStamp.csv"
-$MitigatedCsv = "C:\Users\adminjkh\Desktop\Nessus\MitigatedFindings_$TimeStamp.csv"
-$NewCsv       = "C:\Users\adminjkh\Desktop\Nessus\NewFindings_$TimeStamp.csv"
+$SummaryCsv   = "Where you want your summary csv placed\PatchSummary_$TimeStamp.csv"
+$MitigatedCsv = "Where you want your mitigated cve file placed\MitigatedFindings_$TimeStamp.csv"
+$NewCsv       = "Where you want your new cves that were discovered between scan dates placed\NewFindings_$TimeStamp.csv"
 
 # ==========================================================
 # Load CSV Files
